@@ -1,3 +1,7 @@
+body{
+  /* background: url(images/background.jpg); */
+  background: rgb(112, 112, 112);
+}
 
 /* Container Styling */
 .verification-container {
@@ -50,6 +54,12 @@
   background-color: #000000;
   border-radius: 50%;
   font-size: 30px;
+}
+
+/* verification title */
+.verification-title{
+  font-weight: 600;
+  margin: 35px 0;
 }
 
 /* Divider */
