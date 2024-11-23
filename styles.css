@@ -1,0 +1,105 @@
+
+/* Container Styling */
+.verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* White Card */
+.white-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px 50px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  border: none;
+}
+
+/* Logo */
+.logo {
+  width: 150px;
+}
+
+/* Blue Card */
+.bottom-design,
+.blue-card {
+  background-color: #0066cc;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: -20px;
+  position: relative;
+  text-align: left;
+}
+
+.color-green{
+  color: rgb(0, 219, 0);
+}
+
+/* Check Icon */
+.check-icon {
+  z-index: 1000;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+/* Divider */
+.divider {
+  border-top: 2px solid #fff;
+  
+}
+
+/* Information Styling */
+.info {
+  margin-top: 20px;
+}
+
+.info .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.info .table .d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .label {
+  font-weight: 900;
+  color: white;
+}
+
+.info .value {
+  color: white;
+  text-align: right;
+}
+
+.active-dot{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: rgb(9, 255, 9);
+}
+
+/* Footer Text */
+.footer-text {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+/* border-bottom style */
+.bottom-design{
+  --mask: radial-gradient(16px at bottom,#0000 97%,#000) 50% / 43.85px 100%;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
